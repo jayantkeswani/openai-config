@@ -1,0 +1,38 @@
+{
+  "locator": {
+    "query": ".headercarousel",
+    "mode": "FIRST"
+  },
+  "position": "top",
+  "channel": "desktop",
+  "href": {
+    "select": {
+      "query": "a",
+      "mode": "FIRST"
+    },
+    "method": {
+      "attr": {
+        "key": "abs:href"
+      }
+    }
+  },
+  "image": {
+    "select": {
+      "query": "[x-data-src]",
+      "mode": "FIRST"
+    },
+    "method": {
+      "attr": {
+        "key": "x-data-src"
+      }
+    }
+  },
+  "extractor": {
+    "carousel": {
+      "slide": {
+        "query": ".owl-item:has([x-data-src])",
+        "mode": "SPLIT"
+      }
+    }
+  }
+}

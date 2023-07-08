@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "retailer": "PNP-ZA",
+    "country": "ZA",
+    "language": "en",
+    "pageType": "detail",
+    "x-browser": "chrome"
+  },
+  "resourceSelectors": [
+    {
+      "name": "productImage",
+      "query": ".gallery-image img",
+      "attr": "abs:data-src"
+    }
+  ],
+  "capture": {
+    "screenshot": {
+     "enabled": true,
+     "options": {
+      "format": "jpeg",
+      "quality": 25,
+      "fullPage": true,
+      "fromSurface": true,
+      "captureBeyondViewport": false
+     }
+    }
+  },
+  "script": {
+    "file": "pnp-za-detail.groovy"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "retailer": "PNP-ZA",
+    "country": "ZA",
+    "language": "en",
+    "pageType": "search",
+    "x-browser": "chrome"
+  },
+  "resourceSelectors": [
+    {
+      "name": "productImage",
+      "query": ".thumb img",
+      "attr": "abs:src"
+    }
+  ],
+  "linkSelectors": [
+    {
+      "name": "productLink",
+      "query": ".item > a",
+      "attr": "abs:href",
+      "metadata": {
+        "pageType": "detail",
+        "journey":"search-driven"
+      }
+    }
+  ],
+  "capture": {
+    "screenshot": {
+     "enabled": true,
+     "options": {
+      "format": "jpeg",
+      "quality": 25,
+      "fullPage": true,
+      "fromSurface": true,
+      "captureBeyondViewport": false
+     }
+    }
+  },
+  "script": {
+    "file": "pnp-za-list.groovy"
+  }
+}

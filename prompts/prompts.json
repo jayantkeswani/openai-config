@@ -1,0 +1,22 @@
+{
+  "name": "What is the CSS selector and value for the name of the product in the html snippet?",
+  "price": "What is the CSS selector and value for the price of the product in the HTML?",
+  "productNumber": "What is the CSS selector and value for the product number in the HTML? suggestion: product id",
+  "ingredients": "What is the CSS selector and value for the ingredients of the product in the HTML?",
+  "imageURL": "What is the CSS selector and value for the product image URL in the HTML?",
+  "gtin": "What is the CSS selector and value for the gtin in the HTML?",
+  "netQuantity": "What is the CSS selector and value for net quantity of the product in the HTML?",
+  "promotionText": "What is the CSS selector and value for the promotion text in the HTML?",
+  "description": "What is the CSS selector and value for the description of the product in the HTML?",
+  "nutrition": "What is the CSS selector and value for the nutrition information about the product in the HTML?",
+  "allergens": "What is the CSS selector and value for the allergen warnings in the HTML?",
+  "storage": "What is the CSS selector and value for the storage information in the HTML?",
+  "features": "What is the CSS selector and value for the product features in the HTML?",
+  "instructions": "What is the CSS selector and value for the usage instructions in the HTML?",
+  "outOfStock": "What is the CSS selector and value for the out-of-stock message in the HTML?",
+  "badge": "What is the CSS selector and value for the badge information in the HTML?",
+  "brand": "What is the CSS selector and value for the brand name of the product in the HTML?",
+  "bulletPoints": "What is the CSS selector and value for the bullet points in the HTML?",
+  "avgRating": "What is the CSS selector and value for the average rating in the HTML?",
+  "commentCount": "What is the CSS selector and value for the comment count in the HTML?"  
+}

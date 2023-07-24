@@ -1,0 +1,105 @@
+[
+    {
+        "field": "name",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "price",
+        "cssSelector": ".normalPrice",
+        "value": "R84.49"
+    },
+    {
+        "field": "product_id",
+        "cssSelector": "#addToCartForm input[name='productCodePost']",
+        "value": "000000000000783004_CK"
+    },
+    {
+        "field": "ingredients",
+        "cssSelector": ".headline",
+        "value": "Water, Sugar, Citric Acid, Preservatives (sodium polyphosphate, potassium sorbate, sodium benzoate) and Flavouring"
+    },
+    {
+        "field": "product_image_url",
+        "cssSelector": ".owl-lazy",
+        "value": "https://cdn-prd-02.pnp.co.za/sys-master/images/h66/h39/11120515186718/silo-product-image-v2-16Mar2023-180920-5449000265616-Angle_A-113668-1725_96Wx96H"
+    },
+    {
+        "field": "gtin",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "net_quantity",
+        "cssSelector": ".form-control.js-qty-selector-input",
+        "value": "1"
+    },
+    {
+        "field": "promotion_text",
+        "cssSelector": ".promotion",
+        "value": "Smart Price: R62.99"
+    },
+    {
+        "field": "description",
+        "cssSelector": ".panel.panel-default",
+        "value": "Bonaqua is by definition prepared water and is produced utilising the process of reverse osmosis guaranteeing the enjoyment and quality of the final product. These drinks are water-based and available in tantalising flavours. Carbonation and just the right amount of flavour are added to deliver a fun and refreshing taste."
+    },
+    {
+        "field": "nutrition_information",
+        "cssSelector": ".nutritional-info",
+        "value": "Carbohydrate: Per 100 g/ml - 4 g, Per Serving (100ml) - 4 g; of which total sugar: Per 100 g/ml - 3.5 g, Per Serving (100ml) - 3.6 g; Total Sodium: Per 100 g/ml - 27 mg, Per Serving (100ml) - 27 mg"
+    },
+    {
+        "field": "allergen_warnings",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "storage_information",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "product_features",
+        "cssSelector": "#productInfo .headline",
+        "value": "Barcode, Ingredients"
+    },
+    {
+        "field": "usage_instructions",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "out_of_stock_message",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "badge",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "brand_name",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "bullet_points",
+        "cssSelector": ".dropdown-content li a",
+        "value": [
+            "Scams",
+            "How to Shop Online"
+        ]
+    },
+    {
+        "field": "average_rating",
+        "cssSelector": "",
+        "value": ""
+    },
+    {
+        "field": "comment_count",
+        "cssSelector": ".js-openTab",
+        "value": "0 Reviews"
+    }
+]

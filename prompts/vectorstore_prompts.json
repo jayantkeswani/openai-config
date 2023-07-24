@@ -1,0 +1,23 @@
+{
+    "name": "what is the name of the product in the html",
+    "price": "Give me the price of the product that the website is about",
+    "productNumber": "Give me the product number or product id or sku id for the product the website is about",
+    "ingredients": "What are the ingredients of the product in the HTML?",
+    "imageURL": "What is the URL of product image in the HTML?",
+    "gtin": "What is the gtin for the product in the HTML?",
+
+    "netQuantity": "What is the net quantity or size of the product in the HTML? Suggestion",
+    "promotionText": "Are there any promotional text or discounts in the HTML?",
+    "description": "What is the description of the product in the HTML?",
+    "nutrition": "What are the nutritional details of the product in the HTML?",
+    "allergens": "What are the allergen warnings for the product in the HTML?",
+    "storage": "What is the storage information for the product in the HTML?",
+    "features": "What are the features of the product in the HTML?",
+    "instructions": "What are the usage instructions for the product in the HTML?",
+    "outOfStock": "Is there an out-of-stock message for the product in the HTML?",
+    "badge": "What is the badge information related to the product in the HTML?",
+    "brand": "What is the brand of the product in the HTML?",
+    "bulletPoints": "What are the bullet points related to the product in the HTML?",
+    "avgRating": "What is the average rating of the product in the HTML?",
+    "commentCount": "What is the comment count for the product in the HTML?"
+}

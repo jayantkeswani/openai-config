@@ -1,53 +1,53 @@
 [
     {
         "field": "name",
-        "cssSelector": "",
-        "value": ""
+        "cssSelector": ".fed-pdp-product-details-title h1",
+        "value": "Coca-Cola Soft Drink 1.5l"
     },
     {
         "field": "price",
-        "cssSelector": ".normalPrice",
-        "value": "R84.49"
+        "cssSelector": ".fed-pdp-product-details-price-standard .normalPrice",
+        "value": "R17.99"
     },
     {
         "field": "product_id",
-        "cssSelector": "#addToCartForm input[name='productCodePost']",
-        "value": "000000000000783004_CK"
+        "cssSelector": "input[name='productCodePost']",
+        "value": "000000000000490950_EA"
     },
     {
         "field": "ingredients",
-        "cssSelector": ".headline",
-        "value": "Water, Sugar, Citric Acid, Preservatives (sodium polyphosphate, potassium sorbate, sodium benzoate) and Flavouring"
+        "cssSelector": ".row .headline + div",
+        "value": "Carbonated Water, Sugar, Caramel, Phosphoric Acid, Flavouring and Caffeine"
     },
     {
         "field": "product_image_url",
         "cssSelector": ".owl-lazy",
-        "value": "https://cdn-prd-02.pnp.co.za/sys-master/images/h66/h39/11120515186718/silo-product-image-v2-16Mar2023-180920-5449000265616-Angle_A-113668-1725_96Wx96H"
+        "value": "https://cdn-prd-02.pnp.co.za/sys-master/images/h5c/h5b/10772997505054/silo-product-image-v2-15Mar2022-180556-5449000000439-Angle_A-6955-22637_96Wx96H"
     },
     {
         "field": "gtin",
+        "cssSelector": ".row .headline",
+        "value": "5449000000439"
+    },
+    {
+        "field": "name",
+        "cssSelector": ".fed-pdp-product-details-title h1",
+        "value": "Coca-Cola Soft Drink 1.5l"
+    },
+    {
+        "field": "promotion_text",
         "cssSelector": "",
         "value": ""
     },
     {
-        "field": "net_quantity",
-        "cssSelector": ".form-control.js-qty-selector-input",
-        "value": "1"
-    },
-    {
-        "field": "promotion_text",
-        "cssSelector": ".promotion",
-        "value": "Smart Price: R62.99"
-    },
-    {
         "field": "description",
-        "cssSelector": ".panel.panel-default",
-        "value": "Bonaqua is by definition prepared water and is produced utilising the process of reverse osmosis guaranteeing the enjoyment and quality of the final product. These drinks are water-based and available in tantalising flavours. Carbonation and just the right amount of flavour are added to deliver a fun and refreshing taste."
+        "cssSelector": ".product-classifications .headline + div",
+        "value": "This lower-kilojoule soft drink is the same Coca-Cola with the original taste, just with less sugar. Beyond just the flavour, Coke No Sugar is an attitude. It\u2019s about setting your own rules, standing your ground and challenging the status quo."
     },
     {
         "field": "nutrition_information",
         "cssSelector": ".nutritional-info",
-        "value": "Carbohydrate: Per 100 g/ml - 4 g, Per Serving (100ml) - 4 g; of which total sugar: Per 100 g/ml - 3.5 g, Per Serving (100ml) - 3.6 g; Total Sodium: Per 100 g/ml - 27 mg, Per Serving (100ml) - 27 mg"
+        "value": "Per 100 g/ml, of which total sugar: 10.6 g, Carbohydrate: 11 g, Per Serving (100ml)"
     },
     {
         "field": "allergen_warnings",
@@ -61,8 +61,8 @@
     },
     {
         "field": "product_features",
-        "cssSelector": "#productInfo .headline",
-        "value": "Barcode, Ingredients"
+        "cssSelector": ".product-classifications .row",
+        "value": "This lower-kilojoule soft drink is the same Coca-Cola with the original taste, just with less sugar. Beyond just the flavour, Coke No Sugar is an attitude. It\u2019s about setting your own rules, standing your ground and challenging the status quo."
     },
     {
         "field": "usage_instructions",
@@ -71,7 +71,7 @@
     },
     {
         "field": "out_of_stock_message",
-        "cssSelector": "",
+        "cssSelector": "#addToCartErrorMsg_000000000000490950_EA",
         "value": ""
     },
     {
@@ -86,11 +86,8 @@
     },
     {
         "field": "bullet_points",
-        "cssSelector": ".dropdown-content li a",
-        "value": [
-            "Scams",
-            "How to Shop Online"
-        ]
+        "cssSelector": "",
+        "value": ""
     },
     {
         "field": "average_rating",
@@ -99,7 +96,7 @@
     },
     {
         "field": "comment_count",
-        "cssSelector": ".js-openTab",
+        "cssSelector": ".tab-review a.js-openTab",
         "value": "0 Reviews"
     }
 ]

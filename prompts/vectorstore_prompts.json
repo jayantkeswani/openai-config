@@ -1,12 +1,11 @@
 {
-    "name": "what is the name of the product in the html",
+    "name": "What is the name for the product in the HTML?",
     "price": "Give me the price of the product that the website is about",
     "productNumber": "Give me the product number or product id or sku id for the product the website is about",
     "ingredients": "What are the ingredients of the product in the HTML?",
     "imageURL": "What is the URL of product image in the HTML?",
     "gtin": "What is the gtin for the product in the HTML?",
-
-    "netQuantity": "What is the net quantity or size of the product in the HTML? Suggestion",
+    "netQuantity": "What is the net quantity or size of the product in the HTML?",
     "promotionText": "Are there any promotional text or discounts in the HTML?",
     "description": "What is the description of the product in the HTML?",
     "nutrition": "What are the nutritional details of the product in the HTML?",

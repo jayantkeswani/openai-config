@@ -1,4 +1,5 @@
 import json
+import os
 import asyncio
 import requests
 from common import save_prompt
@@ -6,12 +7,13 @@ from vector_store import ScrapperVS
 from prompts.default import system_prompt
 
 MAX_RETRIES = 5
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 def chat_completion(prompt, model="gpt-4", temperature=0):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer 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"
+        "Authorization": f"Bearer {OPENAI_API_KEY}"
     }
     messages = []
     messages.append({"role": "system", "content": system_prompt})

@@ -1,7 +1,7 @@
 from langchain.document_loaders import TextLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
-from langchain.text_splitter import (RecursiveCharacterTextSplitter, Language)
+from langchain.text_splitter import RecursiveCharacterTextSplitter, Language
 
 class ScrapperVS:
     _instance = None
@@ -23,15 +23,16 @@ class ScrapperVS:
             for document in self.html_docs:
                 if len(document.metadata) < 1:
                     document.metadata["source"] = "data/data.html"
-            self.vector_store = Chroma.from_documents(self.html_docs, OpenAIEmbeddings())
+            self._vector_store = None
             self._initialized = True
 
+    @property
+    def vector_store(self):
+        if self._vector_store is None:
+            self._vector_store = Chroma.from_documents(self.html_docs, OpenAIEmbeddings())
+        return self._vector_store
+
     def get_response_from_vectorstore(self, question, k=5, max_length=None):
-        if max_length:
-            search_result = self.vector_store._similarity_search_with_relevance_scores(question, k=k, max_length=max_length)
-        else:
-            search_result = self.vector_store._similarity_search_with_relevance_scores(question, k=k)
-        search_result_string = ""
-        for result in search_result:
-            search_result_string += result[0].page_content + " "
-        return search_result_string
+        search_result = self.vector_store._similarity_search_with_relevance_scores(question, k=k, max_length=max_length) if max_length else self.vector_store._similarity_search_with_relevance_scores(question, k=k)
+        search_result_list = [result[0].page_content for result in search_result]
+        return " ".join(search_result_list)
